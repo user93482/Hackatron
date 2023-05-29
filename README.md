@@ -1,0 +1,2 @@
+# Hackatron
+Hackatron verseny megoldásai
