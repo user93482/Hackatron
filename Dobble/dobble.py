@@ -33,13 +33,12 @@ def GenerateDeck(n):
 			i += 1
 		symbol += 1
 	i = 0
-	'''
 	while i < len(deck):
 		if len(deck[i]) != n:
 			print('no')
 			del deck[i]
 		else:
-			i += 1'''
+			i += 1
 	return deck
 
 #Eldönti hogy van-e egy elem egy listában 
