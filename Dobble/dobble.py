@@ -35,7 +35,6 @@ def GenerateDeck(n):
 	i = 0
 	while i < len(deck):
 		if len(deck[i]) != n:
-			print('no')
 			del deck[i]
 		else:
 			i += 1
@@ -53,6 +52,7 @@ def PrintDeck(deck):
         for j in i:
             print(j,end=' ')
         print()
+    print('kártyák száma:',len(deck))
 
 n = int(input("Szimbólum kártyánként(ha 0 akkor atuomatikusan generálni fog növekvő sorrendben): "))
 if n == 0:
